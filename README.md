@@ -2,10 +2,75 @@
 TV Script Generation is a part of Udacity Deep Learning Nanodegree
 
 ## What is it?
+This project generates Seinfeld TV scripts using RNNs.  
+
+Udacity provided part of the Seinfeld dataset of scripts from 9 seasons. The Neural Network generates a new ,"fake" TV script, based on patterns it recognizes in this training data.   
+
+Sample generated script:
+```
+elaine: that was the best.
+
+kramer: well, i don't know what the hell's...
+
+jerry:(to george) you can have a piece of paper.
+
+george: what?
+
+kramer: yeah?
+
+elaine: yeah, yeah.
+
+jerry: yeah?
+
+george: yeah.
+
+jerry: i think that's it.
+
+elaine: i don't think that's a good idea.
+
+jerry: well, i don't know if i was just going to have a funeral, but you know, i know, i just wanted to tell you i was gonna call her and then he didn't have the same conversation...
+
+elaine: i didn't say anything..
+
+elaine: what?
+
+jerry: i don't know, i don't care.
+
+george: i don't know.
+
+jerry: i didn't know.
+
+jerry: well, i don't know what it is.
+
+elaine: oh!
+
+jerry: hey, how ya doin?
+
+jerry: yeah, i know, you should get a look.
+
+jerry: oh, no, i didn't..
+
+jerry: what is it?
+
+elaine: well, i don't want to know that...
+
+george: well, i don't know what i mean, i don't have any idea.
+
+elaine:(pointing) oh! yeah! yeah, i just got it.
+
+kramer: hey.
+
+jerry: hey, what happened to the muffin?
+
+george: i don't know.
+
+kramer:(
+```
 
 ## What did I do?
-Udacity provided the data and the notebook with the outline and basic tests. 
-I implemented data loading and pre-processing as well as the RNN network.
+Udacity provided the data and the notebook with the outline and basic tests.   
+
+I implemented data loading and pre-processing as well as the RNN network.  
 
 ## Choosing the hyperparameters
 Choosing the hyperparameters requires not only knowledge, but also luck, intuition, and patience. *Especially*, patience. One epoch takes more than an hour and it's really hard to observe the training and not to try to improve it at the same time.  
